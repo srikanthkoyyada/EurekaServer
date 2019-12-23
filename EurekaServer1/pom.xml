@@ -11,7 +11,7 @@
 	<groupId>com.eureka</groupId>
 	<artifactId>EurekaServer1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>EurekaServer1</name>
 	<description>Eureka Server Instance- 1</description>
 
