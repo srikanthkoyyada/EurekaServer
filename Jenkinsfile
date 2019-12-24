@@ -6,9 +6,7 @@ pipeline {
              customWorkspace "/home/rknowsys/.jenkins/EurekaServer-GIT"
               }
         }
-     environment {
-        MAVEN_OPTS = ' -Xmx2G -XX:MaxPermSize=500m '
-      }
+     
     stages {
     stage('BuildAndPackage') { 
             steps {
