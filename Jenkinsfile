@@ -12,7 +12,7 @@ pipeline {
             steps {
            
             echo '-----------------build maven clean install----------------'
-            sh 'cd /home/rknowsys/eureka/EurekaServer1/'
+            sh 'cd /home/rknowsys/.jenkins/EurekaServer-GIT/EurekaServer1/'
             sh 'mvn clean install'
                }
             }
