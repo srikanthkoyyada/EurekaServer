@@ -20,7 +20,7 @@ pipeline {
     stage('Deploy') {
        
             steps {
-                 sh 'cd /home/rknowsys/eureka/EurekaServer1/target'
+                 sh 'cd /home/rknowsys/.jenkins/EurekaServer-GIT/EurekaServer1/target/'
                  sh 'export BUILD_ID=dontKillMe'
                  sh 'nohup java -Dserver.port=9000 -jar EurekaServer1-0.0.1-SNAPSHOT.jar &'
          }
